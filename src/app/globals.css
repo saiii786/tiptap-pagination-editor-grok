@@ -154,3 +154,25 @@
   padding-left: 1.5em;
   margin-bottom: 1em;
 }
+
+
+
+.page-break {
+  height: 30px;
+  width: 100%;
+  border-top: 2px dashed #aaa;
+  margin: 20px 0;
+  background-color: #f0f0f0;
+  text-align: center;
+  color: #666;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-break::after {
+  content: "— Page Break —";
+  background-color: #f0f0f0;
+  padding: 0 10px;
+}
